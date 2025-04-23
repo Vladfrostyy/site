@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Grahraman - Contacts</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/style.css">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250423143533">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img class="ibg" src="img/components/header/logo.webp" alt="Logo of Ghahraman company">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">About us</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Catalog</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Brand</a>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__link">News</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">FAQs</a></li>
+							<li class="menu__item"><a href="#" class="menu__link menu__link--active">Contact</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+				<div class="header__select" data-da=".menu, 767.98, 1">
+					<select class="header__languages" name="form[]" data-class-modif="form">
+						<option data-asset="img/components/header/flag-england.svg" class="header__language" value="English" selected>English</option>
+						<option data-asset="img/components/header/flag-georgia.svg" class="header__language" value="Georgian">
+							Georgian</option>
+						<option data-asset="img/components/header/flag-russia.svg" class="header__language" value="Russian">
+							Russian</option>
+					</select>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+
+			<section class="page__offer offer">
+				<div class="offer__container">
+					<div class="offer__content">
+						<h2 class="offer__title">Contact Page</h2>
+						<div class="offer__label">Let’s Connect. Have a question or ready to place an order? Reach out
+							to our team today.</div>
+						<div class="offer__image">
+							<img class="ibg" src="img/terms/logo.webp" alt="Logo of company">
+						</div>
+					</div>
+					<form novalidate class="contacts-form" action="https://api.web3forms.com/submit" method="post" enctype="multipart/form-data">
+						<input type="hidden" name="access_key" value="48904b60-4ecc-4170-8283-58a862b0e44b">
+
+						<h4 class="contacts-form__title">Submit a B2B Request Here</h4>
+						<div class="contacts-form__wrapper">
+							<input required type="text" name="name" placeholder="Your Name" class="contacts-form__input" pattern="^(?=.*\b[А-Яа-яA-Za-z]+\b)[А-Яа-яA-Za-z.\- ]+$" data-error-message="The field must include 2 words with indentation. May have '.' or '-'." minlength="2">
+						</div>
+						<div class="contacts-form__wrapper">
+							<input required type="email" id="email" name="email" placeholder="Your Email Address" class="contacts-form__input" pattern="^[^\s@]{3,}@[^\s@]{3,}\.[^\s@]{2,}$" data-error-message="The field must include at least 3 characters before '@' and 3 characters after. Must contain '@'">
+						</div>
+						<div class="contacts-form__wrapper">
+							<label for="message" class="contacts-form__label">Message</label>
+							<textarea required rows="1" minlength="10" maxlength="100" class="contacts-form__text" name="message" id="message" placeholder="Your message.."></textarea>
+						</div>
+						<button class="contacts-form__submit button" type="submit">Send</button>
+					</form>
+				</div>
+			</section>
+
+			<div class="marquee">
+				<div class="marquee__container">
+					<div class="marquee__inner">
+						<div class="marquee__track">
+							<img class="marquee__image" src="img/components/marquee/hella.webp" alt="Logo of Hella company">
+							<img class="marquee__image" src="img/components/marquee/parsopal.webp" alt="Logo of Pars Opal company">
+							<img class="marquee__image" src="img/components/marquee/mahmood-rice.webp" alt="Logo of Mahmood Rice company">
+							<img class="marquee__image" src="img/components/marquee/mahmood-tea.webp" alt="Logo of Mahmood Tea company">
+							<img class="marquee__image" src="img/components/marquee/arabic.webp" alt="Logo of Arabic company">
+							<img class="marquee__image" src="img/components/marquee/arabic-2.webp" alt="Logo of Arabic-2 company">
+							<img class="marquee__image" src="img/components/marquee/arabic-3.webp" alt="Logo of Arabic-3 company">
+							<img class="marquee__image" src="img/components/marquee/hella.webp" alt="Logo of Hella company">
+							<img class="marquee__image" src="img/components/marquee/parsopal.webp" alt="Logo of Pars Opal company">
+							<img class="marquee__image" src="img/components/marquee/mahmood-rice.webp" alt="Logo of Mahmood Rice company">
+							<img class="marquee__image" src="img/components/marquee/mahmood-tea.webp" alt="Logo of Mahmood Tea company">
+							<img class="marquee__image" src="img/components/marquee/arabic.webp" alt="Logo of Arabic company">
+							<img class="marquee__image" src="img/components/marquee/arabic-2.webp" alt="Logo of Arabic-2 company">
+							<img class="marquee__image" src="img/components/marquee/arabic-3.webp" alt="Logo of Arabic-3 company">
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__wrapper">
+				<h5 class="footer__title">follow us</h5>
+				<ul class="footer__list">
+					<li class="footer__item _icon-msg"><a href="mailto:info@ghm.ge" class="footer__link">info@ghm.ge</a>
+					</li>
+					<li class="footer__item"><a href="tel:+995 599 41 11 58" class="footer__link">+995 599 41 11 58</a></li>
+					<li class="footer__item _icon-date"><a href="#" class="footer__link">Book a free call</a></li>
+				</ul>
+			</div>
+			<div class="footer__wrapper">
+				<h5 class="footer__title">menu</h5>
+				<ul class="footer__list footer__list--menu">
+					<li class="footer__item footer__item--active"><a href="#" class="footer__link">Home</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">News</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">About us</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">FAQs</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Catalog</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Brand</a></li>
+				</ul>
+			</div>
+			<div class="footer__wrapper footer__wrapper--location _icon-geo">
+				<a href="#" class="footer__link footer__link--location">Georgia <span> Tbilisi,Sadguri Lilo
+						51</span></a>
+			</div>
+			<div class="footer__wrapper">
+				<div class="footer__rating">
+					<span class="footer__value-rating"></span>
+					<div data-rating-title data-rating data-rating-value="5" class="rating"></div>
+				</div>
+				<div class="footer__reviews-number">Based on 600 reviews</div>
+				<div class="footer__label">powered by
+					<span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+				</div>
+				<a href="#" class="footer__feedback button"><span>review us on</span></a>
+			</div>
+		</div>
+	</footer>
+	<button type="button" class="links-popup" data-popup="#links-popup">
+		<img class="ibg" src="img/components/pop-up.webp" alt="Image of panda opens pop-up window with links on our socials">
+	</button>
+	</div>
+	<script src="js/app.min.js?_v=20250423143533"></script>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">
+				<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+					<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+				</svg>
+			</button>
+			<div class="popup__text">
+				Popup content
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+	<div id="links-popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-cross"></button>
+				<h4 class="popup__title">Let’s talk?</h4>
+				<div class="popup__text">
+					<a href="#" class="popup__link _icon-social-fb">Facebook</a>
+					<a href="#" class="popup__link _icon-social-insta">Instagram</a>
+					<a href="#" class="popup__link _icon-social-linked">Linkedin</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
